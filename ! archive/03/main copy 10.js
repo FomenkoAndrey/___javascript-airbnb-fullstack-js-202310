@@ -9,3 +9,11 @@
 /* eslint-disable prefer-template */
 /* eslint-disable no-var */
 /* eslint-disable no-unused-vars */
+
+const num = 10
+console.log(num);
+
+(function () {
+  const num = 20
+  console.log(num)
+}())
