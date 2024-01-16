@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h1 id="header">Header</h1>
+  <div class="user">Користувач 1</div>
+  <div class="user">Користувач 2</div>
+
+  <script>
+    // Отримання першого елемента з класом 'user'
+    // const firstUserDiv = document.querySelector(".user");
+    // const firstUserDiv = document.querySelector("#header");
+    const firstUserDiv = document.querySelector("div.user");
+
+    console.log(firstUserDiv)
+
+    // Зміна тексту елемента
+    firstUserDiv.textContent = "Змінений Користувач 1";
+  </script>
+
+</body>
+
+</html>

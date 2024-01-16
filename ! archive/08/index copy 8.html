@@ -9,12 +9,14 @@
 
 <body>
 
-  <div id="myDiv" class="example"></div>
+
+  <div id="myDiv" class="class1 class2 class3"></div>
 
   <script>
     const myDiv = document.getElementById("myDiv");
-    console.log(myDiv.classList.contains("example")); // Виведе true
-    console.log(myDiv.classList.contains("nonexistentClass")); // Виведе false
+    myDiv.classList.remove("class2", "class3");
+    console.log(myDiv.className)
+    // Тепер myDiv має клас "class1"
   </script>
 
   <script src="main.js"></script>

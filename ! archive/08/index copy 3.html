@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <input type="text" name="user-input" value="Перший введений текст">
+  <input type="text" name="user-input" value="Другий введений текст">
+
+  <script>
+    // Отримання всіх елементів з ім'ям 'user-input'
+    const inputs = document.getElementsByName("user-input");
+
+    console.log(inputs)
+    console.log(inputs[0])
+    console.log(inputs[1])
+
+    // Виведення значень цих елементів
+    for (var i = 0; i < inputs.length; i++) {
+      console.log(inputs[i].value);
+    }
+  </script>
+
+</body>
+
+</html>
